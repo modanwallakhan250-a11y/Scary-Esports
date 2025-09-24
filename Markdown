@@ -1,0 +1,49 @@
+# Scary Esports
+
+**Free Fire tournaments & paid scrims platform with leaderboard, OTP login, referral & Razorpay payments**
+
+---
+
+## 🔥 Features
+
+- Player & Admin roles
+- Tournament creation & management (admin only)
+- Leaderboards with points for kills & booyahs
+- Paid scrims using Razorpay
+- Email OTP login
+- Referral system & user balance
+- Responsive frontend (React)
+- Backend API (Node.js + Express)
+- MongoDB database (Atlas or local)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, React Router, Axios
+- **Backend:** Node.js, Express, JWT Authentication
+- **Database:** MongoDB (Atlas or local)
+- **Payments:** Razorpay integration
+- **Email OTP:** Nodemailer
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- MongoDB running locally or Atlas cluster
+- Razorpay account for test/live payments
+- Gmail account (or SMTP) for OTP emails
+
+---
+
+### Backend Setup
+
+```bash
+cd backend
+cp .env.example .env
+# edit .env with your keys and secrets
+npm install
+npm run dev
